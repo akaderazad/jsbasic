@@ -2,8 +2,6 @@ function feetToMile(feet){
     var mile = feet / 5280;
     return mile;
 }
-var result = feetToMile(26400);
-console.log(result);
 
 
 
@@ -30,11 +28,6 @@ function brickCalculator(tenth, twentieth, twentyUp){
     var totalBrick = brickCountForTenth + brickCountForTwentieth + brickCountForTwentyUp;
     return totalBrick;
 }
-
-
-
-
-
 
 
 
